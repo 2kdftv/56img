@@ -59,7 +59,7 @@ optimizer_args = ["decouple=True", "d_coef=2", "weight_decay=0.01", "use_bias_co
 learning_rate = 1
 unet_lr = 1
 text_encoder_lr = 1
-lr_scheduler = "cosine"
+lr_scheduler = "constant"
 lr_warmup_steps = 160
 
 # Backend
